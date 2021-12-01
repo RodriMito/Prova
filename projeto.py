@@ -1,17 +1,17 @@
-h_entrada = int(input("Digite a hora de entrada \n"))
-m_entrada = int(input("Digite os minutos de entrada \n"))
-h_saida = int(input("Digite a hora de saída \n"))
-m_saida = int(input("Digite os minutos de saída \n"))
+h_ehoraE = int(input("Coloque a hora da entrada: \n"))
+minutoE = int(input("Coloque os minutos da entrada: \n"))
+horaS = int(input("Coloque a hora da saída: \n"))
+minutoS = int(input("Coloque os minutos da saída: \n"))
 
-if h_entrada > h_saida:
-    hora_final = (h_saida + 24) - h_entrada
+if horaE > horaS:
+    hora_final = (horaS + 24) - horaE
 else:
-    hora_final = h_saida - h_entrada
+    hora_final = horaS - horaE
 
-if m_entrada > m_saida:
-    minuto_final = (m_saida + 60) - m_entrada
+if minutoE > minutoS:
+    minuto_final = (minutoS + 60) - minutoE
 else:
-    minuto_final = m_saida - m_entrada
+    minuto_final = minutoS - minutoE
 
 print(f"A permanência foi de: {hora_final} horas e {minuto_final} minutos \n")
 
