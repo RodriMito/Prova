@@ -1,4 +1,4 @@
-h_ehoraE = int(input("Coloque a hora da entrada: \n"))
+horaE = int(input("Coloque a hora da entrada: \n"))
 minutoE = int(input("Coloque os minutos da entrada: \n"))
 horaS = int(input("Coloque a hora da saída: \n"))
 minutoS = int(input("Coloque os minutos da saída: \n"))
